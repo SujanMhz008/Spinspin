@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/spin"
+        />
+
+    <Spinner
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:id="@+id/spinP"
+        />
+    <AutoCompleteTextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/actvN"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/pickDate"
+        android:text="Select Date"
+        android:layout_margin="20dp"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Select Time"
+        android:id="@+id/pickTime"
+        android:layout_margin="20dp"
+        />
+</LinearLayout>
